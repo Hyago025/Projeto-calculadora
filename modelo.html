@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Modelo</title>
+        <link rel = 'stylesheet' href = 'estilo.css'/>
+    </head>
+
+    <body>
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+
+        <section>
+
+            <div>
+                <P>
+                    Digite o primeiro número
+                    <input type="number" id="txtNum1"/>
+                </P>
+
+                <P>
+                    Digite o segundo número
+                    <input type="number" id="txtNum2"/>
+                </P>
+                
+                <input type="button" value="+" onclick="somar()"/>
+                
+                <input type="button" value="-" onclick="subtrair()"/>
+                
+                <input type="button" value="*" onclick="multiplicar()"/>
+                
+                <input type="button" value="/" onclick="dividir()"/>
+            
+            </div>
+
+
+            <div id="res">
+                <p>
+                    Resultado: 
+                </p>
+            </div>
+
+        </section>
+        <footer>
+            <p>&copy Colégio Técnico de Campinas</p>
+        </footer>
+        <script src='script.js'></script>
+</body>
+</html>
